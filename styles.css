@@ -2,15 +2,26 @@ body{
     background-color:hsl(30, 38%, 92%) ;
 }
 
-img{
-    height:100%;
+.img1 {
+    width: 100% !important;
+    height: auto !important;
 }
-
+.img2{
+    display: none;
+}
 .card-title{
     font-family: 'Montserrat', sans-serif;
     color: rgb(168, 168, 168);
     letter-spacing: .5rem;
 
+}
+
+.card{
+    margin-top:20%
+}
+
+.card-body{
+    padding: 100px 70px 60px;
 }
 
 .product-name{
@@ -21,6 +32,7 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: rgb(168, 168, 168);
+    margin-top:2rem;
 }
 
 .prices{
@@ -31,16 +43,16 @@ img{
 .pricefont{
     color:hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
-
     font-size: 2rem;
     font-weight:900;
-
+    margin-top:1.5rem;
 }
 
 .btn{
     background-color: hsl(158, 36%, 37%);
-    width:90%;
-    
+    width:80%;
+    text-align: center;
+
 
 }
 
@@ -48,7 +60,18 @@ img{
    text-decoration: line-through;
    margin-left:10%;
 margin-top: 3%;
+color: rgb(168, 168, 168);
+margin-top:2rem;
+
+
  }
+ .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
  .attribution {
     font-size: 11px;
     text-align: center;
@@ -57,3 +80,87 @@ margin-top: 3%;
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+
+  @media (max-width: 414px) {
+
+    .card{
+        margin-top:0%;
+    }
+    .outer-card{
+        padding:25px;
+
+    }
+    .card-body{
+        padding: 30px 35px 60px;
+        border-radius: 0% 0% 5% 5%;
+
+    }
+    .card-title{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(168, 168, 168);
+        letter-spacing: .5rem;
+        font-size: 14px;
+    }
+    
+    
+    .img1{
+        height:100px;
+        display: none;
+    }
+
+    .img2{ 
+        display: inline;
+        width: 100% !important;
+        height: auto !important; 
+        border-radius: 5% 5% 0% 0%;
+ 
+      }
+      .info{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: rgb(168, 168, 168);
+        margin-top:1rem;
+    }
+    
+    .prices{
+        display: flex;
+        margin: auto;
+    
+    }
+    .pricefont{
+        color:hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+        font-size: 2rem;
+        font-weight:900;
+        margin-top:1.5rem;
+    }
+    
+    .btn{
+        background-color: hsl(158, 36%, 37%);
+        width:80%;
+        text-align: center;
+    
+    
+    }
+    .prices{
+        display: flex;
+        margin: auto;
+        margin-top:-20px;
+    
+    }
+    .oldprice{
+       text-decoration: line-through;
+       margin-left:10%;
+    margin-top: 3%;
+    color: rgb(168, 168, 168);
+    margin-top:2rem;
+    
+    
+     }
+     .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
