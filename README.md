@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/agomez99/ProductView](https://github.com/agomez99/ProductView)
+- Live Site URL: [https://agomez99.github.io/ProductView/](https://agomez99.github.io/ProductView/)
 
 ## My process
 
@@ -28,7 +28,7 @@ I would build this out in React for continued development
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [https://www.austinegomez.com](https://www.austinegomez.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
