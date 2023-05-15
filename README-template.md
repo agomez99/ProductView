@@ -2,13 +2,7 @@
 
 ### Screenshot
 
-[![Alt text](./images/desktop.png)]
-[![Alt text](./images/mobile.png)]
-
-
-
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<img src="./images/desktop.png" alt= “” width="600px" height="600px"><img src="./images/mobile.png" alt= “” width="300px" height="600px">
 
 ### Links
 
