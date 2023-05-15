@@ -1,166 +1,187 @@
-body{
-    background-color:hsl(30, 38%, 92%) ;
+body {
+    background-color: hsl(30, 38%, 92%);
 }
 
 .img1 {
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
+    border-radius: 2% 0% 0% 2%;
 }
-.img2{
+
+.img2 {
     display: none;
 }
-.card-title{
+
+.card-title {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(168, 168, 168);
+    color: rgb(128, 126, 126);
     letter-spacing: .5rem;
 
 }
 
-.card{
-    margin-top:20%
+.card {
+    margin-top: 10%;
+
 }
 
-.card-body{
+.card-body {
     padding: 100px 70px 60px;
+    border-radius: 2% 0% 0% 2%;
+
 }
 
-.product-name{
+.product-name {
     font-family: 'Fraunces', serif;
-
 }
-.info{
+
+.info {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: rgb(168, 168, 168);
-    margin-top:2rem;
+    color: rgb(128, 126, 126);
+    margin-top: 2rem;
 }
 
-.prices{
+.prices {
     display: flex;
     margin: auto;
 
 }
-.pricefont{
-    color:hsl(158, 36%, 37%);
+
+.pricefont {
+    color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
     font-size: 2rem;
-    font-weight:900;
-    margin-top:1.5rem;
+    font-weight: 900;
+    margin-top: 1.5rem;
 }
 
-.btn{
+.btn {
     background-color: hsl(158, 36%, 37%);
-    width:80%;
+    width: 80%;
     text-align: center;
 
 
 }
 
-.oldprice{
-   text-decoration: line-through;
-   margin-left:10%;
-margin-top: 3%;
-color: rgb(168, 168, 168);
-margin-top:2rem;
+.oldprice {
+    text-decoration: line-through;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: rgb(168, 168, 168);
+    margin-top: 2rem;
 
 
- }
- .btn-container{
+}
+
+.btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
 
- .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
 
 
-  @media (max-width: 414px) {
+@media (max-width: 375px) {
 
-    .card{
-        margin-top:0%;
+    .card {
+        margin-top: 0%;
     }
-    .outer-card{
-        padding:25px;
+
+    div.img2-ctn{
+        border-radius: 2%;
+        margin-top: -2%;
+        }
+
+    .outer-card {
+        padding: 25px;
 
     }
-    .card-body{
-        padding: 30px 35px 60px;
+
+    .card-body {
+        padding: 30px 35px 10px;
         border-radius: 0% 0% 5% 5%;
-
+        
     }
-    .card-title{
+
+    .card-title {
         font-family: 'Montserrat', sans-serif;
         color: rgb(168, 168, 168);
-        letter-spacing: .5rem;
-        font-size: 14px;
+        letter-spacing: .2rem;
+        font-size: 12px;
     }
-    
-    
-    .img1{
-        height:100px;
+
+
+    .img1 {
+        height: 100px;
         display: none;
     }
 
-    .img2{ 
+    .img2 {
         display: inline;
         width: 100% !important;
-        height: auto !important; 
+        height: auto !important;
         border-radius: 5% 5% 0% 0%;
- 
-      }
-      .info{
+
+    }
+
+    .info {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         color: rgb(168, 168, 168);
-        margin-top:1rem;
+        margin-top: 1rem;
     }
-    
-    .prices{
+
+    .prices {
         display: flex;
         margin: auto;
-    
+
     }
-    .pricefont{
-        color:hsl(158, 36%, 37%);
+
+    .pricefont {
+        color: hsl(158, 36%, 37%);
         font-family: 'Fraunces', serif;
         font-size: 2rem;
-        font-weight:900;
-        margin-top:1.5rem;
+        font-weight: 900;
+        margin-top: 1.5rem;
     }
-    
-    .btn{
+
+    .btn {
         background-color: hsl(158, 36%, 37%);
-        width:80%;
+        width: 100%;
         text-align: center;
-    
-    
+
+
     }
-    .prices{
+
+    .prices {
         display: flex;
         margin: auto;
-        margin-top:-20px;
-    
+        margin-top: -20px;
+
     }
-    .oldprice{
-       text-decoration: line-through;
-       margin-left:10%;
-    margin-top: 3%;
-    color: rgb(168, 168, 168);
-    margin-top:2rem;
-    
-    
-     }
-     .btn-container{
+
+    .oldprice {
+        text-decoration: line-through;
+        margin-left: 10%;
+        margin-top: 3%;
+        color: rgb(168, 168, 168);
+        margin-top: 2rem;
+
+
+    }
+
+    .btn-container {
         display: flex;
         justify-content: center;
         align-items: center;
-     }
+    }
 }
