@@ -1,6 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
     background-color: hsl(30, 38%, 92%);
 }
+
 
 .img1 {
     width: 100% !important;
@@ -20,8 +29,11 @@ body {
 }
 
 .card {
-    margin-top: 10%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 .card-body {
@@ -96,10 +108,10 @@ body {
         margin-top: 0%;
     }
 
-    div.img2-ctn{
+    div.img2-ctn {
         border-radius: 2%;
         margin-top: -2%;
-        }
+    }
 
     .outer-card {
         padding: 25px;
@@ -109,7 +121,7 @@ body {
     .card-body {
         padding: 30px 35px 10px;
         border-radius: 0% 0% 5% 5%;
-        
+
     }
 
     .card-title {
